@@ -1,4 +1,4 @@
-#Generating adversrial image with Tensorflow#
+# Generating adversrial image with Tensorflow #
 
 This project is about training neural networks with Mnist data and generating corresponding adversarial image attack. 
 	In *mnist_deep.py*, a neural network which classifies Mnist images with an accuracy higher than 99% is produced and saved in *nets*. In *mnist_deep_adversarial.py* the network is reconstructed and reloaded. Then I applied the **fast gradient sign targeted attack** to the network, and generated an image that gets classified into something different.
